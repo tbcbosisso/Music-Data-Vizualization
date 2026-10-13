@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>How Big Is a Genre, Really?</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV (locked during story) -->
+  <nav class="topnav">
+    <a href="#top">Home</a>
+    <a href="#story">Story</a>
+    <a href="#explore" class="locked" id="exploreLink">Explore 🔒</a>
+  </nav>
+
+  <!-- PAGE 1 — SETUP -->
+  <section class="story-section" id="sec-1">
+    <div class="story-text">
+      <h1>For 30 years, we've counted artists.</h1>
+      <p>Scrub through the years — the leaders never change.</p>
+    </div>
+    <div class="story-chart" id="chart-bars"></div>
+  </section>
+
+  <!-- PAGE 2 — CLIMAX -->
+  <section class="story-section" id="sec-2">
+    <div class="story-text">
+      <h1>But count ≠ vitality.</h1>
+      <p>Watch Rock drift cold. Watch Electronic glow.</p>
+    </div>
+    <div class="story-chart" id="chart-bubbles"></div>
+  </section>
+
+  <!-- PAGE 3 — EVIDENCE -->
+  <section class="story-section" id="sec-3">
+    <div class="story-text">
+      <h1>It's a 30-year pattern.</h1>
+      <p>Click any cell to see who was really driving it.</p>
+    </div>
+    <div class="story-chart" id="chart-heatmap"></div>
+  </section>
+
+  <!-- PAGE 4 — RESOLUTION -->
+  <section class="story-section" id="sec-4">
+    <div class="story-text">
+      <h1>The biggest genre isn't the liveliest one.</h1>
+      <p>Same chart. New eyes.</p>
+    </div>
+    <div class="story-chart" id="chart-bars-recolor"></div>
+    <button id="exploreBtn">Explore the data yourself →</button>
+  </section>
+
+  <!-- Free explore mode -->
+  <section class="explore-section" id="explore"></section>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
