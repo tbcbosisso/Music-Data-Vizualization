@@ -1,0 +1,15 @@
+music-story/
+├── index.html              ← main page (all 4 sections)
+├── css/
+│   └── style.css           ← layout, typography, colors
+├── js/
+│   ├── main.js             ← orchestrator, scrollama setup
+│   ├── bars.js             ← Page 1 (setup bar chart)
+│   ├── bubbles.js          ← Page 2 (animated bubble scatter)
+│   ├── heatmap.js          ← Page 3 (genre × year heatmap)
+│   ├── barsRecolored.js    ← Page 4 (callback bar chart)
+│   └── data.js             ← loads + cleans CSV
+├── data/
+│   └── music.csv           ← your dataset
+└── assets/
+    └── quadrants.png       ← optional quadrant background
